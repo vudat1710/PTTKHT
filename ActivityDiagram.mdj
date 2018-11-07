@@ -3703,11 +3703,30 @@
 									"model": {
 										"$ref": "AAAAAAFm3fQ9TmNn5EM="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFm7YvJHywA3u8=",
+											"_parent": {
+												"$ref": "AAAAAAFm3fQ9T2NvpSQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFm7YvJBivrQnI="
+											},
+											"font": "Arial;13;0",
+											"left": 1245,
+											"top": 550,
+											"width": 70,
+											"height": 13,
+											"text": "-shift",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 1240,
 									"top": 545,
 									"width": 80,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -3720,7 +3739,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1240,
-									"top": 555,
+									"top": 568,
 									"width": 80,
 									"height": 10
 								},
@@ -7445,9 +7464,9 @@
 										"$ref": "AAAAAAFm7SGwXe0Q+xs="
 									},
 									"font": "Arial;13;0",
-									"left": 1282,
+									"left": 1281,
 									"top": 984,
-									"width": 5.05908203125,
+									"width": 7,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -7507,9 +7526,9 @@
 										"$ref": "AAAAAAFm7SGwXe0RxoE="
 									},
 									"font": "Arial;13;0",
-									"left": 1618,
+									"left": 1617,
 									"top": 744,
-									"width": 5.05908203125,
+									"width": 7,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -7717,9 +7736,9 @@
 										"$ref": "AAAAAAFm7SJKnRDvR+Y="
 									},
 									"font": "Arial;13;0",
-									"left": 1222,
+									"left": 1221,
 									"top": 947,
-									"width": 5.05908203125,
+									"width": 7,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -7779,9 +7798,9 @@
 										"$ref": "AAAAAAFm7SJKnRDwHAc="
 									},
 									"font": "Arial;13;0",
-									"left": 1210,
+									"left": 1209,
 									"top": 317,
-									"width": 5.05908203125,
+									"width": 7,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -7982,7 +8001,8 @@
 								"$ref": "AAAAAAFm3bbhr0KVftE="
 							},
 							"name": "card_number",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -8058,7 +8078,8 @@
 								"$ref": "AAAAAAFm3bcBXkK/LmQ="
 							},
 							"name": "id",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8067,7 +8088,8 @@
 								"$ref": "AAAAAAFm3bcBXkK/LmQ="
 							},
 							"name": "description",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8076,7 +8098,8 @@
 								"$ref": "AAAAAAFm3bcBXkK/LmQ="
 							},
 							"name": "status",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8085,7 +8108,8 @@
 								"$ref": "AAAAAAFm3bcBXkK/LmQ="
 							},
 							"name": "cost",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8094,7 +8118,8 @@
 								"$ref": "AAAAAAFm3bcBXkK/LmQ="
 							},
 							"name": "order_item",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -8267,7 +8292,8 @@
 								"$ref": "AAAAAAFm3bc6QkMTYmk="
 							},
 							"name": "id",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8276,7 +8302,8 @@
 								"$ref": "AAAAAAFm3bc6QkMTYmk="
 							},
 							"name": "name",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8285,7 +8312,8 @@
 								"$ref": "AAAAAAFm3bc6QkMTYmk="
 							},
 							"name": "price",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8294,7 +8322,8 @@
 								"$ref": "AAAAAAFm3bc6QkMTYmk="
 							},
 							"name": "image",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8303,7 +8332,8 @@
 								"$ref": "AAAAAAFm3bc6QkMTYmk="
 							},
 							"name": "type",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						}
 					]
 				},
@@ -8354,7 +8384,8 @@
 								"$ref": "AAAAAAFm3bdV3EM95g8="
 							},
 							"name": "tax",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8363,7 +8394,8 @@
 								"$ref": "AAAAAAFm3bdV3EM95g8="
 							},
 							"name": "final_cost",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -8517,6 +8549,17 @@
 								"multiplicity": "*"
 							}
 						}
+					],
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFm7YvJBivrQnI=",
+							"_parent": {
+								"$ref": "AAAAAAFm3fQ9TmNn5EM="
+							},
+							"name": "shift",
+							"visibility": "private"
+						}
 					]
 				},
 				{
@@ -8608,7 +8651,8 @@
 								"$ref": "AAAAAAFm3faVhmv0b6s="
 							},
 							"name": "id",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8617,7 +8661,8 @@
 								"$ref": "AAAAAAFm3faVhmv0b6s="
 							},
 							"name": "email",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8626,7 +8671,8 @@
 								"$ref": "AAAAAAFm3faVhmv0b6s="
 							},
 							"name": "password",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8635,7 +8681,8 @@
 								"$ref": "AAAAAAFm3faVhmv0b6s="
 							},
 							"name": "fullname",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8644,7 +8691,8 @@
 								"$ref": "AAAAAAFm3faVhmv0b6s="
 							},
 							"name": "phone",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						}
 					]
 				},
