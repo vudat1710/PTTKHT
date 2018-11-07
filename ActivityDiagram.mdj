@@ -1192,13 +1192,47 @@
 											"height": 13,
 											"text": "-final_cost",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFm7Z5Y/WvJDlg=",
+											"_parent": {
+												"$ref": "AAAAAAFm3bdV3ENFJfE="
+											},
+											"model": {
+												"$ref": "AAAAAAFm7Z5Y7WvG51E="
+											},
+											"font": "Arial;13;0",
+											"left": 1637,
+											"top": 692,
+											"width": 94,
+											"height": 13,
+											"text": "-weight",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFm7Z6CC23zZdg=",
+											"_parent": {
+												"$ref": "AAAAAAFm3bdV3ENFJfE="
+											},
+											"model": {
+												"$ref": "AAAAAAFm7Z6B9G3wO00="
+											},
+											"font": "Arial;13;0",
+											"left": 1637,
+											"top": 707,
+											"width": 94,
+											"height": 13,
+											"text": "-quantity",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1632,
 									"top": 657,
 									"width": 104,
-									"height": 38
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1211,7 +1245,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1632,
-									"top": 695,
+									"top": 725,
 									"width": 104,
 									"height": 10
 								},
@@ -8396,6 +8430,24 @@
 							"name": "final_cost",
 							"visibility": "private",
 							"type": ""
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFm7Z5Y7WvG51E=",
+							"_parent": {
+								"$ref": "AAAAAAFm3bdV3EM95g8="
+							},
+							"name": "weight",
+							"visibility": "private"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFm7Z6B9G3wO00=",
+							"_parent": {
+								"$ref": "AAAAAAFm3bdV3EM95g8="
+							},
+							"name": "quantity",
+							"visibility": "private"
 						}
 					]
 				},
@@ -8558,7 +8610,8 @@
 								"$ref": "AAAAAAFm3fQ9TmNn5EM="
 							},
 							"name": "shift",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
